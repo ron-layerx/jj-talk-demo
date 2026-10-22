@@ -9,3 +9,7 @@ pub fn woof() -> String {
 pub fn goodbye(name: &str) -> String {
     format!("Goodbye, {name}.")
 }
+
+pub fn shout(s: &str) -> String {
+    s.to_uppercase()
+}
