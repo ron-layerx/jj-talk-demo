@@ -5,3 +5,7 @@ pub fn hello(name: &str) -> String {
 pub fn woof() -> String {
     "Woof!".to_string()
 }
+
+pub fn goodbye(name: &str) -> String {
+    format!("Goodbye, {name}.")
+}
