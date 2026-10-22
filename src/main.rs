@@ -1,7 +1,7 @@
 mod greet;
 
 fn main() {
-    println!("{}", greet::hello("wrold"));
+    println!("{}", greet::shout(&greet::hello("wrold")));
     // manners
     println!("{}", greet::goodbye("everyone"));
 }
